@@ -21,10 +21,10 @@ $("#add-project-btn").click(function () {
   };
   projectListLocalStorage.push(projectDetails);
   localStorage.setItem("Projects", JSON.stringify(projectListLocalStorage));
-  $("#project-name-input").val(""),
-    $("#project-type-input").val(""),
-    $("#date-select").val(""),
-    getData();
+  $("#project-name-input").val("");
+  $("#project-type-input").val("");
+  $("#date-select").val("");
+  getData();
 });
 
 function clearList() {
