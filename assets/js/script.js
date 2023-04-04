@@ -70,7 +70,6 @@ function getData() {
 
 if (localStorage.getItem("Projects") == null) {
   projectListLocalStorage = [];
-  console.log("hello");
 } else {
   getData();
 }
